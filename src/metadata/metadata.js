@@ -3,10 +3,10 @@ module.exports = {
   title: 'Computer Technician',
   facts: {
     'Residence': '<a href="https://www.google.com/maps/place/Flores,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6353265,-58.4782144,14z/data=!3m1!4b1!4m6!3m5!1s0x95bcc9801c92ef47:0xc93f0b1dc41d41ee!8m2!3d-34.6374837!4d-58.4601452!16zL20vMGRyY204?entry=ttu"><i class="fa fa-home fact-icon"></i>CABA</a>',
-    'Linkedin': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+    'Linkedin': `<a href="https://www.linkedin.com/in/facundo-arroyo-a68912252/">
                   <i class="fa-brands fa-linkedin fact-icon"></i>F. Arroyo
                 </a>`,
-    'Github': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>crtnoo</a>`,
+    'Github': `<a href="https://github.com/crtnoo"><i class="fa-brands fa-github fact-icon"></i>crtnoo</a>`,
     'Email': '<a href="mailto:facurarroyo@gmail.com"><i class="fa fa-envelope fact-icon"></i>facurarroyo@gmail.com</a>'
   },
   skills: [
