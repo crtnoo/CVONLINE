@@ -1,13 +1,13 @@
 module.exports = {
   name: 'Facundo Arroyo',
-  title: 'Tecnico en Computacion',
+  title: 'Computer Technician',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/Flores,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6353265,-58.4782144,14z/data=!3m1!4b1!4m6!3m5!1s0x95bcc9801c92ef47:0xc93f0b1dc41d41ee!8m2!3d-34.6374837!4d-58.4601452!16zL20vMGRyY204?entry=ttu"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Residence': '<a href="https://www.google.com/maps/place/Flores,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6353265,-58.4782144,14z/data=!3m1!4b1!4m6!3m5!1s0x95bcc9801c92ef47:0xc93f0b1dc41d41ee!8m2!3d-34.6374837!4d-58.4601452!16zL20vMGRyY204?entry=ttu"><i class="fa fa-home fact-icon"></i>CABA</a>',
+    'Linkedin': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+                  <i class="fa-brands fa-linkedin fact-icon"></i>F. Arroyo
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Github': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>crtnoo</a>`,
+    'Email': '<a href="mailto:facurarroyo@gmail.com"><i class="fa fa-envelope fact-icon"></i>facurarroyo@gmail.com</a>'
   },
   skills: [
     ['Comedy', 100],
@@ -25,43 +25,46 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'Training, development and maintenance of website',
+      period: '2023',
+      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'MySql'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+In the last year of high school we did an internship in which we were trained to develop and maintain a website
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'Network video game development',
+      period: '2023',
+      skills: ['Java', 'LibGDX'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Make a network racing video game, using only Java and a framework called LibGDX.
+Despite being a fairly simple game, I had to learn independently how to create it with libgdx and then implement the networking part that was explained to us and couple it to our code.
+The game had different screens, whether loading or levels, and an aesthetic that complemented the idea
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: 'Data Managment Software Development',
+      period: '2022',
+      skills: ['Visual Basic .NET', 'MySql'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+I made a program for a fictitious company in which I had to collect data to understand what type of software the employee needed, create a model, analyze the data path, create a database and create a user manual for the use of the software. .
+This program had a database that could be stored on a server and an interface with which the employee interacted to have better management of all the data and files that were handled in the company.
 `
     }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'Programming',
+      skills: [],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+programming in different languages, the languages are: HTML, CSS, MySql, PHP, Java, JavaScript, C, C++, Visual Basi .NET, React, Nodejs
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: 'Equipment and maintenance of Linux and Windows devices and operating systems',
+      skills: [],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+I carry out equipment and maintenance of mobile devices, PCs, laptops and more. As well as the installation of OS and different types of programs
 `
     }
   ]
